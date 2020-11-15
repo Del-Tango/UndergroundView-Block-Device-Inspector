@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#
+# Regards, the Alveare Solutions society.
+#
 declare -A DEFAULT
 
 CONF_FILE_PATH="$1"
