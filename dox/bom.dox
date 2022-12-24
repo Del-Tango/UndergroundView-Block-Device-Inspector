@@ -1,0 +1,19 @@
+#!/bin/bash
+#
+# Excellent Regards, the Alveare Solutions #!/Society -x
+#
+# Underground View - Action Bills of Materials
+
+cat <<EOF
+
+uvvmshdv    ,Sector HexDump View      ,(*) -> (1) + y|n
+uvvmsbd     ,Set Block Device         ,(*) -> (2) -> (1 + <dev-path>)
+uvvmsbs     ,Set Block Size           ,(*) -> (2) -> (2 + <bytes>)
+uvvmsssn    ,Set Start Sector Number  ,(*) -> (2) -> (3 + <sector>)
+uvvmsesc    ,Set End Sector Count     ,(*) -> (2) -> (4 + <secotor>)
+uvvmsfwm    ,Set File Writer Mode     ,(*) -> (2) -> (5) -> (<mode>)
+uvvmidep    ,Install Dependencies     ,(*) -> (2) -> (6 + y)
+
+EOF
+
+exit $?
